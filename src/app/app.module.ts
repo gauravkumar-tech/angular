@@ -12,12 +12,14 @@ import { MatInputModule } from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button'
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
+import { CalculatorComponent } from './calculator/calculator.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     GauravComponent,
+    CalculatorComponent,
 
   ],
   imports: [
