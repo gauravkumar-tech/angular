@@ -19,6 +19,7 @@ export class CalculatorComponent implements OnInit {
       mob: new FormControl(null),
       email: new FormControl(null),
       sex: new FormControl(null),
-  }
+  })
+}
 
 }

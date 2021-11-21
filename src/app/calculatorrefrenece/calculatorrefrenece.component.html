@@ -1,0 +1,24 @@
+<div class="gaurav">
+    <form [formGroup]="calculatorform">
+
+
+        <div>
+            <button mat-raised-button style="background-color: lightcoral; color: white ;margin:0 10px;" (click)="sum()">Sum</button>
+            <mat-form-field>
+                <mat-label>First Name</mat-label>
+                <input matInput formControlName="firstnumber1" [readonly]="disableYn">
+            </mat-form-field>
+            <mat-form-field style="padding: 12px;">
+                <mat-label>Last Name</mat-label>
+                <input matInput formControlName="secondnumber" [readonly]="disableYn">
+            </mat-form-field>
+            <button mat-raised-button style="background-color: dimgray; color:  white;margin:0 10px;" (click)="CalculateSum(calculatorform.value)">Calculate</button>
+            <mat-form-field>
+                <mat-label>Result</mat-label>
+                <input matInput formControlName="result" [readonly]="disableYn">
+            </mat-form-field>
+        </div>
+
+
+    </form>
+</div>

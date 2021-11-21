@@ -13,6 +13,7 @@ import {MatButtonModule} from '@angular/material/button'
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { CalculatorComponent } from './calculator/calculator.component';
+import { CalculatorrefreneceComponent } from './calculatorrefrenece/calculatorrefrenece.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { CalculatorComponent } from './calculator/calculator.component';
     AppComponent,
     GauravComponent,
     CalculatorComponent,
+    CalculatorrefreneceComponent,
 
   ],
   imports: [
